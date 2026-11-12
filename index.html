@@ -1,9 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#08090B">
     <title>NEXORA | Beyond Limits</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -13,31 +16,42 @@
 
     <header class="navbar">
         <a href="#home" class="logo">NEXORA<span>.</span></a>
+
         <nav>
             <a href="#home">Overview</a>
             <a href="#products">Products</a>
             <a href="#technology">Technology</a>
             <a href="#experience">Experience</a>
         </nav>
+
         <a href="#contact" class="nav-btn">GET IN TOUCH ↗</a>
     </header>
 
     <main>
 
         <section class="hero" id="home">
-            <video class="hero-video" autoplay muted loop playsinline>
+
+            <video class="hero-video hero-video-desktop" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
                 <source src="nexora.bg.mp4" type="video/mp4">
             </video>
+
+            <video class="hero-video hero-video-mobile" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+                <source src="nexora-mobile.mp4" type="video/mp4">
+            </video>
+
             <div class="hero-overlay"></div>
+
             <div class="hero-content">
                 <span class="eyebrow">THE FUTURE STARTS HERE</span>
                 <h1>BEYOND<br>EVERY<br><span>LIMIT.</span></h1>
                 <p>Designed for those who demand more. Experience precision, power and performance in a world without boundaries.</p>
                 <a href="#products" class="hero-btn">DISCOVER NEXORA ↗</a>
             </div>
+
         </section>
 
         <section class="products" id="products">
+
             <div class="section-heading">
                 <span class="eyebrow">ENGINEERED TO PERFORM</span>
                 <h2>BUILT FOR <span>DOMINANCE.</span></h2>
@@ -45,8 +59,11 @@
             </div>
 
             <div class="product-container">
+
                 <div class="product-card">
-                    <div class="product-image"><img src="headset.jpg" alt="Gaming Headset"></div>
+                    <div class="product-image">
+                        <img src="headset.jpg" alt="Gaming Headset">
+                    </div>
                     <span class="product-number">01 / AUDIO</span>
                     <h3>SONIC X1</h3>
                     <p>Immersive sound. Absolute clarity.</p>
@@ -60,7 +77,9 @@
                 </div>
 
                 <div class="product-card">
-                    <div class="product-image"><img src="keyboard.jpg" alt="Gaming Keyboard"></div>
+                    <div class="product-image">
+                        <img src="keyboard.jpg" alt="Gaming Keyboard">
+                    </div>
                     <span class="product-number">02 / CONTROL</span>
                     <h3>MECH PRO</h3>
                     <p>Precision in every keystroke.</p>
@@ -74,7 +93,9 @@
                 </div>
 
                 <div class="product-card">
-                    <div class="product-image"><img src="mouse.jpg" alt="Gaming Mouse"></div>
+                    <div class="product-image">
+                        <img src="mouse.jpg" alt="Gaming Mouse">
+                    </div>
                     <span class="product-number">03 / SPEED</span>
                     <h3>PHANTOM X</h3>
                     <p>Unmatched speed. Total control.</p>
@@ -86,21 +107,37 @@
                     </ul>
                     <a class="buy-btn" href="https://wa.me/923001234567?text=Hi%20NEXORA%2C%20I%20want%20to%20buy%20the%20PHANTOM%20X%20Gaming%20Mouse%20(Rs%209%2C999)." target="_blank" rel="noopener">BUY NOW</a>
                 </div>
+
             </div>
         </section>
 
         <section class="visual-section technology" id="technology">
+
             <img src="motherboard-bg.jpg" class="motherboard-bg" alt="Futuristic Motherboard">
             <div class="visual-overlay"></div>
+
             <div class="visual-content">
                 <span class="eyebrow">INNOVATION WITHOUT LIMITS</span>
                 <h2>POWER MEETS <span>PRECISION.</span></h2>
                 <p>Advanced engineering meets futuristic design. Technology built around your performance.</p>
+
                 <div class="technology-gallery">
-                    <div class="tech-card"><img src="technology-1.jpg" alt="Futuristic Motherboard"><h3>FUTURISTIC MOTHERBOARD</h3></div>
-                    <div class="tech-card"><img src="technology-2.jpg" alt="Advanced Processor"><h3>ADVANCED PROCESSOR</h3></div>
-                    <div class="tech-card"><img src="technology-3.jpg" alt="Digital Circuits"><h3>DIGITAL CIRCUITS</h3></div>
-                    <div class="tech-card"><img src="technology-4.jpg" alt="Gaming Hardware"><h3>GAMING HARDWARE</h3></div>
+                    <div class="tech-card">
+                        <img src="technology-1.jpg" alt="Futuristic Motherboard">
+                        <h3>FUTURISTIC MOTHERBOARD</h3>
+                    </div>
+                    <div class="tech-card">
+                        <img src="technology-2.jpg" alt="Advanced Processor">
+                        <h3>ADVANCED PROCESSOR</h3>
+                    </div>
+                    <div class="tech-card">
+                        <img src="technology-3.jpg" alt="Digital Circuits">
+                        <h3>DIGITAL CIRCUITS</h3>
+                    </div>
+                    <div class="tech-card">
+                        <img src="technology-4.jpg" alt="Gaming Hardware">
+                        <h3>GAMING HARDWARE</h3>
+                    </div>
                 </div>
             </div>
         </section>
@@ -113,7 +150,6 @@
                 <p>This is more than technology. This is a statement of performance, ambition and individuality.</p>
                 <a href="#contact" class="hero-btn">EXPERIENCE NEXORA ↗</a>
 
-                <!-- Generic scroll hint (left column) -->
                 <div class="scroll-hint">
                     <span class="scroll-line"></span>
                     <span class="scroll-arrow">↓</span>
@@ -121,20 +157,17 @@
                 </div>
             </div>
 
-            <!-- Gallery wrapper — hint lives here -->
             <div class="experience-gallery-wrap">
 
-                <!-- ── SCROLL HINT BADGE ── -->
                 <div class="exp-scroll-hint" id="expHint">
                     <div class="exp-hint-arrows">
                         <i></i><i></i><i></i>
                     </div>
                     <span class="exp-hint-text">Scroll products</span>
                 </div>
-                <!-- thin accent line -->
+
                 <div class="exp-hint-line" id="expHintLine"></div>
 
-                <!-- Dot indicators -->
                 <div class="exp-dots" id="expDots">
                     <div class="exp-dot active" data-idx="0"></div>
                     <div class="exp-dot" data-idx="1"></div>
@@ -142,7 +175,6 @@
                     <div class="exp-dot" data-idx="3"></div>
                 </div>
 
-                <!-- The scrollable gallery -->
                 <div class="experience-gallery" id="expGallery">
 
                     <div class="experience-card">
@@ -201,9 +233,8 @@
                         </div>
                     </div>
 
-                </div><!-- /.experience-gallery -->
-            </div><!-- /.experience-gallery-wrap -->
-
+                </div>
+            </div>
         </section>
 
         <section class="contact" id="contact">
@@ -216,16 +247,26 @@
     </main>
 
     <footer class="footer">
-        <video class="footer-video" autoplay muted loop playsinline>
+
+        <video class="footer-video footer-video-desktop" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
             <source src="nexora.bg.mp4" type="video/mp4">
         </video>
+
+        <video class="footer-video footer-video-mobile" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+            <source src="nexora-mobile.mp4" type="video/mp4">
+        </video>
+
         <div class="footer-overlay"></div>
+
         <div class="footer-content">
+
             <div class="footer-top">
+
                 <div class="footer-brand">
                     <a href="#home" class="logo">NEXORA<span>.</span></a>
                     <p>Beyond limits. Beyond expectations. Built for those who demand more.</p>
                 </div>
+
                 <div class="footer-links">
                     <h3>EXPLORE</h3>
                     <a href="#home">Overview</a>
@@ -233,57 +274,126 @@
                     <a href="#technology">Technology</a>
                     <a href="#experience">Experience</a>
                 </div>
+
                 <div class="footer-links">
                     <h3>CONNECT</h3>
                     <a href="#contact">Contact Us</a>
                     <a href="mailto:hello@nexora.example">Email Us ↗</a>
                     <a href="#home">Back to Top ↑</a>
                 </div>
+
                 <div class="footer-message">
                     <span class="eyebrow">THE NEXT GENERATION</span>
                     <h2>BUILT BEYOND <span>LIMITS.</span></h2>
                 </div>
+
             </div>
+
             <div class="footer-bottom">
                 <p>© 2026 NEXORA. ALL RIGHTS RESERVED.</p>
                 <span>DESIGNED FOR THE FUTURE.</span>
             </div>
+
         </div>
     </footer>
 
     <script>
     (function () {
-        const gallery  = document.getElementById('expGallery');
-        const hint     = document.getElementById('expHint');
-        const hintLine = document.getElementById('expHintLine');
-        const dots     = document.querySelectorAll('.exp-dot');
-        let hintHidden = false;
 
-        // Update active dot based on scroll position
-        function updateDots() {
-            const scrollTop  = gallery.scrollTop;
-            const cardHeight = gallery.clientHeight;
-            const idx        = Math.round(scrollTop / cardHeight);
+        const mobileScreen = window.matchMedia("(max-width: 768px)");
 
-            dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+        function switchVideos() {
 
-            // Hide hint once user has scrolled at least half a card
-            if (!hintHidden && scrollTop > cardHeight * 0.4) {
-                hint.classList.add('hidden');
-                hintLine.classList.add('hidden');
-                hintHidden = true;
-            }
+            const videos = document.querySelectorAll(
+                ".hero-video, .footer-video"
+            );
+
+            videos.forEach(video => {
+
+                const isMobileVideo =
+                    video.classList.contains("hero-video-mobile") ||
+                    video.classList.contains("footer-video-mobile");
+
+                const shouldShow =
+                    mobileScreen.matches === isMobileVideo;
+
+                if (shouldShow) {
+                    video.style.display = "block";
+
+                    if (video.paused) {
+                        video.play().catch(() => {});
+                    }
+                } else {
+                    video.pause();
+                    video.style.display = "none";
+                }
+
+            });
+
         }
 
-        gallery.addEventListener('scroll', updateDots, { passive: true });
+        switchVideos();
 
-        // Dot click → scroll to that card
-        dots.forEach(dot => {
-            dot.addEventListener('click', () => {
-                const idx = parseInt(dot.dataset.idx, 10);
-                gallery.scrollTo({ top: idx * gallery.clientHeight, behavior: 'smooth' });
+        if (mobileScreen.addEventListener) {
+            mobileScreen.addEventListener("change", switchVideos);
+        } else {
+            mobileScreen.addListener(switchVideos);
+        }
+
+        const gallery = document.getElementById("expGallery");
+        const hint = document.getElementById("expHint");
+        const hintLine = document.getElementById("expHintLine");
+        const dots = document.querySelectorAll(".exp-dot");
+
+        let hintHidden = false;
+
+        if (!gallery) return;
+
+        function updateDots() {
+
+            const scrollTop = gallery.scrollTop;
+            const cardHeight = gallery.clientHeight;
+
+            if (!cardHeight) return;
+
+            const idx = Math.min(
+                dots.length - 1,
+                Math.round(scrollTop / cardHeight)
+            );
+
+            dots.forEach((dot, i) => {
+                dot.classList.toggle("active", i === idx);
             });
+
+            if (!hintHidden && scrollTop > cardHeight * 0.4) {
+
+                if (hint) hint.classList.add("hidden");
+                if (hintLine) hintLine.classList.add("hidden");
+
+                hintHidden = true;
+            }
+
+        }
+
+        gallery.addEventListener("scroll", updateDots, {
+            passive: true
         });
+
+        dots.forEach(dot => {
+
+            dot.addEventListener("click", () => {
+
+                const idx = parseInt(dot.dataset.idx, 10);
+
+                gallery.scrollTo({
+                    top: idx * gallery.clientHeight,
+                    behavior: "smooth"
+                });
+
+            });
+
+        });
+
     })();
     </script>
 
